@@ -127,3 +127,9 @@ C:\Users\karao\Desktop\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspa
 C:\Users\karao\Desktop\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\karao\Desktop\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\karao\Desktop\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
+C:\Users\karao\Desktop\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\karao\Desktop\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\karao\Desktop\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\karao\Desktop\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\karao\Desktop\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\karao\Desktop\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
