@@ -25,14 +25,14 @@ namespace WebAPI.Controllers
       {
          // without dto var products = await _context.Products.ToListAsync();
          //with dto
-         var products = await _context.Products.Where(i => i.IsActive).Select(p => ProductToDTO(p)).ToListAsync(); 
+         var products = await _context.Products.Where(i => i.IsActive).Select(p => ProductToDTO(p)).ToListAsync();
          return Ok(products);
 
       }
 
       //localhost:5000/api/products/1 => GET
-      [HttpGet("{id}")]
       [Authorize]
+      [HttpGet("{id}")]
       public async Task<IActionResult> GetProduct(int? id)
       {
          if (id == null)
@@ -132,7 +132,7 @@ namespace WebAPI.Controllers
       private static ProductDTO ProductToDTO(Product p)
       {
          var entity = new ProductDTO();
-         if(p != null)
+         if (p != null)
          {
             entity.ProductId = p.ProductId;
             entity.ProductName = p.ProductName;

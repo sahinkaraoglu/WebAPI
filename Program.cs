@@ -51,7 +51,7 @@ builder.Services.AddAuthentication(x=> {
     x.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuer = false,
-        ValidIssuer = "sahinkaraoglu.com",
+        ValidIssuer = " karaoglu.com",
         ValidateAudience = false,
         ValidAudience = "",
         ValidAudiences = new string[] {"a","b"},
@@ -105,10 +105,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthentication();
 app.UseRouting();
 app.UseCors(MyAllowSpecificOrigins);
 app.UseAuthorization();
 app.MapControllers();
+
 app.Run();
